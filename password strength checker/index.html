@@ -1,0 +1,45 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Password Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Password Checker</h1>
+
+    <div class="input-box">
+        <input type="password" id="password" placeholder="Enter Password">
+    </div>
+
+    <div class="show-pass">
+        <input type="checkbox" id="togglePassword">
+        <label for="togglePassword">Show Password</label>
+    </div>
+
+    <div class="strength">
+        <div id="strength-bar"></div>
+    </div>
+
+    <p id="message">Password Strength</p>
+
+    <div class="requirements">
+
+        <p id="length">❌ Minimum 8 Characters</p>
+        <p id="uppercase">❌ One Uppercase Letter</p>
+        <p id="number">❌ One Number</p>
+        <p id="special">❌ One Special Character</p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

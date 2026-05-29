@@ -1,0 +1,54 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Form Processor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <form id="form">
+
+        <h1>Contact</h1>
+
+        <div class="input-box">
+            <input type="text" id="name" placeholder="Full Name">
+            <small>Error</small>
+        </div>
+
+        <div class="input-box">
+            <input type="email" id="email" placeholder="Email Address">
+            <small>Error</small>
+        </div>
+
+        <div class="input-box">
+            <textarea id="message" placeholder="Write your message..."></textarea>
+            <small>Error</small>
+        </div>
+
+        <button type="submit">
+            <span id="btnText">Send Message</span>
+        </button>
+
+    </form>
+
+    <div class="success-box" id="successBox">
+
+        <div class="check">✓</div>
+
+        <h2>Message Sent!</h2>
+
+        <p>Your form has been processed successfully.</p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

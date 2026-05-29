@@ -1,0 +1,59 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <form id="contactForm">
+
+        <h1>Contact Us</h1>
+
+        <div class="input-box">
+            <input type="text" id="name" placeholder="Full Name">
+            <small>Error Message</small>
+        </div>
+
+        <div class="input-box">
+            <input type="email" id="email" placeholder="Email Address">
+            <small>Error Message</small>
+        </div>
+
+        <div class="input-box">
+            <input type="text" id="subject" placeholder="Subject">
+            <small>Error Message</small>
+        </div>
+
+        <div class="input-box">
+            <textarea id="message" placeholder="Write your message..."></textarea>
+            <small>Error Message</small>
+        </div>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+    <div class="success-box" id="successBox">
+
+        <div class="check">✓</div>
+
+        <h2>Message Sent</h2>
+
+        <p>Your message has been delivered successfully.</p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
