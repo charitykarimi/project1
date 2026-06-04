@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Login Form</h2>
+
+    <form id="loginForm">
+        <div class="input-group">
+            <input type="text" id="username" placeholder="Username">
+            <small id="userError"></small>
+        </div>
+
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Password">
+            <small id="passError"></small>
+        </div>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <p id="success"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
